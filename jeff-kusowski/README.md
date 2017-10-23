@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+When the value of the variable needed to be changed, such as when `i` is used as a counter, `let` must be used since a variable declared with `const` cannot be changed.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Pretty well.  In a couple cases, I don't think it saved a ton of keystrokes.  But it looks cleaner and is easier to read.
